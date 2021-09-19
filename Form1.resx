@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAXSURBVChTY0gOmvefGDyqEC+mtsJ5/wFwmegJuzsIMgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bunifuGradientPanel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="txtPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 43</value>
+  </data>
+  <data name="txtPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txtPort.Text" xml:space="preserve">
+    <value>8080</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
+    <value>txtPort</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuMaterialTextbox, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtHost.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="txtHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 43</value>
+  </data>
+  <data name="txtHost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 35</value>
+  </data>
+  <data name="txtHost.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="txtHost.Text" xml:space="preserve">
+    <value>192.168.0.12</value>
+  </data>
+  <data name="&gt;&gt;txtHost.Name" xml:space="preserve">
+    <value>txtHost</value>
+  </data>
+  <data name="&gt;&gt;txtHost.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuMaterialTextbox, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtHost.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtHost.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bunifuFlatButton4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAEtJREFUaEPt
+        1LEJwDAMBEAt4SmypDdXZOIBXCrmDr58eDUKAAAAAPixzByVp2nGnnmuSrPS1dwzz63S123JQVcedNdT
+        AAAAAIAuIl77+HXeZC3n/wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuFlatButton4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1264, 26</value>
+  </data>
+  <data name="bunifuFlatButton4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="bunifuFlatButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 47</value>
+  </data>
+  <data name="bunifuFlatButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.Name" xml:space="preserve">
+    <value>bunifuFlatButton4</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bunifuFlatButton3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAkFJREFUaEPt
+        mU9rE1EUxfMJatWCLl0IceXG7ywoWr9AdSUabLUIbcFVF10UWhBaP0A8JzkXgrxM3rvvzh/h/eBAyNx7
+        7jthMsnMmzUajUaj8b+wXC7n0BfoBnoNPdShMOgJHUK30BE016FYYPwK+g1t8hM6UEk18HoKXdB4A354
+        L1USAwxTYYyQUPBIhTHiQsHoBXRN1w5OIPfpx155dME11J9+MDle2e3GFYo96s1hoTY/MPmz9sqiKBRr
+        1ZPLnVr9wOTd2iubrFCsUW0Jb9XuByZdX9ZtdIbiMdWUcA49kUUdMPIsIHn1w3ueD4jfY/dFJwkNoapQ
+        eD2NMAaNNaCEVShoWmEMDtCgEnj+/1q/zIYz9jW2XzDIE6qE4cIYHKjB0XyDhg1jcDAUGWq8MAYXoIXU
+        Mn4YgwvRgrxMJ4zBBUGnXF0hP6BphSFYFH9nSi/N5AwKu0kMAQvy/GhuEnrnWwUWUhvGGD8UFhAVxhgv
+        FAZHhzGGD4WBfYUxhguFQZ4w/DcRcj8VCgZ4wiygBxJfl9BfKBi7w8iCHtMIBcPqMAbf07ES4kLRSIYl
+        JMMYPKaaEmJCweTNyi4f/jd7pPatoOaxakv4oHY/MCl50Pgd2hnGYC1UEuperX5gknsDVxTGYA+UG+qT
+        2vzAJOdhvSuMwV55dBHzsJ7A6Dl0RdcEX6E9lbqhh7xSXELPVBoDDFOhuJtXHcagF/RvqPgwBoy5JfkR
+        4nbheyj8ISA9IW53cpPrM9TPlmSj0Wg0GuHMZn8BdOB+NVOhnZsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuFlatButton3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1340, 26</value>
+  </data>
+  <data name="bunifuFlatButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="bunifuFlatButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 47</value>
+  </data>
+  <data name="bunifuFlatButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Name" xml:space="preserve">
+    <value>bunifuFlatButton3</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAkFJREFUaEPt
+        mU9rE1EUxfMJatWCLl0IceXG7ywoWr9AdSUabLUIbcFVF10UWhBaP0A8JzkXgrxM3rvvzh/h/eBAyNx7
+        7jthMsnMmzUajUaj8b+wXC7n0BfoBnoNPdShMOgJHUK30BE016FYYPwK+g1t8hM6UEk18HoKXdB4A354
+        L1USAwxTYYyQUPBIhTHiQsHoBXRN1w5OIPfpx155dME11J9+MDle2e3GFYo96s1hoTY/MPmz9sqiKBRr
+        1ZPLnVr9wOTd2iubrFCsUW0Jb9XuByZdX9ZtdIbiMdWUcA49kUUdMPIsIHn1w3ueD4jfY/dFJwkNoapQ
+        eD2NMAaNNaCEVShoWmEMDtCgEnj+/1q/zIYz9jW2XzDIE6qE4cIYHKjB0XyDhg1jcDAUGWq8MAYXoIXU
+        Mn4YgwvRgrxMJ4zBBUGnXF0hP6BphSFYFH9nSi/N5AwKu0kMAQvy/GhuEnrnWwUWUhvGGD8UFhAVxhgv
+        FAZHhzGGD4WBfYUxhguFQZ4w/DcRcj8VCgZ4wiygBxJfl9BfKBi7w8iCHtMIBcPqMAbf07ES4kLRSIYl
+        JMMYPKaaEmJCweTNyi4f/jd7pPatoOaxakv4oHY/MCl50Pgd2hnGYC1UEuperX5gknsDVxTGYA+UG+qT
+        2vzAJOdhvSuMwV55dBHzsJ7A6Dl0RdcEX6E9lbqhh7xSXELPVBoDDFOhuJtXHcagF/RvqPgwBoy5JfkR
+        4nbheyj8ISA9IW53cpPrM9TPlmSj0Wg0GuHMZn8BdOB+NVOhnZsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuFlatButton2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1481, 30</value>
+  </data>
+  <data name="bunifuFlatButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="bunifuFlatButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="bunifuFlatButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Name" xml:space="preserve">
+    <value>bunifuFlatButton2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        LQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 12</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 112</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bell MT, 20pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 48</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>PORT :</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Bell MT, 20pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 43</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 30</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>IP :</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnConnect.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAztJREFUaEPV
+        mr2L1EAYxve+tFAQxEa7K/TfEEs9zsJTFO5q5Sy0F67VylLUyi+09qvzL/ADrW0sxFMEBWtR19+TfXPE
+        bHY3MzvvZP3BA7vJzDzz7CaZzCS9/51+v38afTSt2ubZgo7tRcvoIFq0zUOwbwP9QiWfbFe30JE5tILu
+        om+oyh/0Fl1Fh61KUxixbbu7g04cQ6+L7kzmJ7qBzqN6GH0/Zc3mB/Nd6LZ6kgAFXbOm84P5EnqiniQg
+        TxhMTqLy6nPWNmv7PHqEUqDz65w17QtG24XlAB3f62gB3dOGhFwxS18w+jzw20GhXg0+JuUH2m+2fmBy
+        BtWvRF5cMFtfMFpDOmm9eWaW/mCWI9RXs8sDht6hdLVbMrs8YKhQnueU/4WhCoa69/pdWKdH//6cWfmD
+        WdONZEo+mJU/mG0iHeNVFC5lwFtm5wtGTWGKey9TqgvFiln6gcnIMFZEZVKEeol8zx8MJoYp0TbbF4M8
+        jltTPmDQdMuj7+tWZAj2xYbasib8wKR6ly3GhimhjEKFXCg0BZm36pOhcON8ZhKUrd5ltwojKBcyTt1H
+        7cMIKgzNZ2zXWCinH+KLqdUPQbmQceoBWrCq7aFS03ymVagQaDNknNJ8KjyMoGLwyR0KbYWOUyq7adXD
+        oXL6Rg21YW1VKcJYEZVpOhT1PW65ioq70Ru1UmOqUKprbVT5J0wJ25pCha+QUklhnhfVm4kKRZ2Ycaoe
+        KmyFlAqTwpQEh6J87DilRfny6tl+UZ7CoetmQaEoGzVORYPB9cIqjNahKBc8TkWDwSqKJeqccoPOLKL3
+        6tkUzE4oOqJDIQWzEYpOpFxz7j4UHdBddUq6C4WxngrUB7sUdBMK0wOFvQ/5Q2Gox4My9qKTUN8Laz/y
+        hsLsaWHrS75QGF0sLP3Rxcf/8Tsm+5DHYfcC1a+ged74wGhr4JcMvRmiIWG6+UwsGF0a+CXhIdpZauJz
+        3HwmFkyapsWxPEZ5n6hVwbwpTEw4rQtcRvkePtXBfNQcXy8I3UT1VZ9R6CnAUWu2O+jE2Dk+n4+ga+gd
+        qv9rehXsDjqBuvtXqtCR1nN89mkSeAjp5bw9tnm2oGP55vju9Hp/AeSaLPbFueB3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConnect.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1034, 43</value>
+  </data>
+  <data name="btnConnect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 64</value>
+  </data>
+  <data name="btnConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Name" xml:space="preserve">
+    <value>btnConnect</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bunifuGradientPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuGradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bunifuGradientPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bunifuGradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1415, 134</value>
+  </data>
+  <data name="bunifuGradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.Name" xml:space="preserve">
+    <value>bunifuGradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuGradientPanel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuGradientPanel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAATSURBVBhXY3DXm/0fGZMsMPs/AEu4IPGdmatdAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="bunifuGradientPanel2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSettings.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSettings.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 280</value>
+  </data>
+  <data name="btnSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 80</value>
+  </data>
+  <data name="btnSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>GÖSTERGELER</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Name" xml:space="preserve">
+    <value>btnSettings</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAboutUs.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnAboutUs.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAABG9JREFUaEPt
+        mturFlUchrfnA+WxiIjsUslApL+gFKHEtDMEeSMVIkWhXQYFaiB4YUVXQf+DYkcDoYJOdoBKPHTU1CyD
+        LiqtaPW833rXzN778xtmZs2nW/GBl/3xrvV712zmtGbNjFzhciWEsADdj15Cb6Pv0W/j9B16C72I7kPz
+        XX5xYUOmowfR6+hf1BTV7EUPoOmOvXAw6Gy0BR1DiX/Qu+hZdDdajOaP0xJ0D3oOvY9Uk/gRPYVmeZjh
+        wkDaSB02iQ/QI2iBu9SGmoXoMfQRSnyL7nKX7iFce+FVjWQ0+O1uzoasFegTBZtXULd7h8Ab0BdKhz/Q
+        JjTZzZ1B5hT0OPoTiU/RdW7OgyAd6z8oFb5CN7tpaDDGLeigBoTDaJGb2kHATegnpcE+dJWbhg5jzUO6
+        eAhdCG50UzMonIk+UwrohL7aTRcMxpyDPtYG+O8MN9WHopd75XEXL7RdG2qmoeeRrnCSfk9zc22ouRYd
+        QeIF2/Wg4I5Y1zuxl9puBHXa8PFsd3MjqFuGdAH4D620XQ0dZ6FvkNhkuzHUnogRYzjh5sZQ+2SM6J38
+        M20Phk66Ywtd06fYbgy1J3spY8n5R6aiz3sp/FO2zw8ddNP7udc1hNtst4L6zg6tBPWrYkw4hWbb7ofG
+        h3vd2Bu2WkNGOtlPW61O9tFQPwmlvfKQ7X5ofCf2CRtsTTjYNs3NxJu2xkKDnic0rT6L5tmecLBtmmie
+        Q5o5z7VdgqkHHbHP1oSFbdwfNzWstVWCuTO2hWdsTVjYRj3ziB22SjDfiG1hja3WOKcPN2dD1LqYGPba
+        KsE8GtvCElutcU4fbs6GqKUxMRyyVYJ5JrY1f9IbhPMKbGdD1DUxMfxqqwRTVwLR2SKA8wpsZ0PUjJgY
+        ztkqwfw7tuXdtEbjvALb2RCV/pGztkowL6VDS1N78YutEszOTvaE8wpsZ0NU5cmuhTKxzlY2ziuwnQ1R
+        98bEsNtWCWbnN0TnFdjOhqjKG+La2Bb228rGeQW2syHqvZgYVtsqwex80kjOGGxnQUz1pFHQkKYpG21l
+        4awC21kQowU8scdWPzSuj33CAVtZOKvAdmuI0INVWvGsfLDSwkN61l5luzXOKbDdGiLSZFGLhtULEHR4
+        utc1c/FBxJgS262gXI/OWrIV1YsPgk7Zy0GuHYi7NYIyvTsR9ZaDBB2zFuhi6WDcrTaUNF+gS1CQtWTa
+        FYyteZX2gthluz4UaRFb7yfEh+jSXMQWFOoBJp1gX6J2S/stYKxFKI2tv3lHBQF6R5JWw/V+b7mbhgZj
+        3IrSe8r8Fz0Jgq5HaYVPJ90TaKqbO4NMXWK1WP0XEt29eksQqMuyPgbQlUPoUFuDJrlLa5SBdLP7GgmN
+        sQvVu8y2gfCVKD2ECZ2Ej6Kc19MHUEKHUmdviythIO2dzeg4Smg2qun16A8Gilm0fqOqDwb08YFuesPb
+        C4Ng0C4+4XgNXZxPOM4HGzIXrUbb0B6kD2h+Rwn91lVvN9qK7kRzXH6Fy4yRkf8BrbEN4ghSG8oAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnAboutUs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 392</value>
+  </data>
+  <data name="btnAboutUs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnAboutUs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 80</value>
+  </data>
+  <data name="btnAboutUs.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnAboutUs.Text" xml:space="preserve">
+    <value>DRONE BİLGİLERİ</value>
+  </data>
+  <data name="&gt;&gt;btnAboutUs.Name" xml:space="preserve">
+    <value>btnAboutUs</value>
+  </data>
+  <data name="&gt;&gt;btnAboutUs.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAboutUs.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnAboutUs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnMissions.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnMissions.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAoJJREFUaEPt
+        mb2KFFEQhUcREbNlwWwTTTcxM9QH2MhAMzNTQ9EnMFEwNDU0VR9gRfwFExURMxMFEzEQEd3xq9vntjO3
+        +3bXTCtMUB8cZureU9Wc3d5NahZsGvP5/BF6hy6hIzqejM3STJv9Hl1Gx3Q9GWYdQheRzd+3g0U+oEmB
+        rFczbFbJJ3QNbcm+FvSfQy9Ry2KQxQevHMi86innZJ7r0/iGbqIdtbvAv4seoswXfS4FOYz20KtUNXxE
+        V1D1lbA7ecybsRk2y379CXlPo7vol53Bb3QfnUnDKnB/Ct1DB8j4iq6i46mCNoh6rHYFsu866w0gW2e+
+        QXkS3Ubf7U48RmXvCXQH/UTGD3QDbcvyd74+lx5kcFR7Veysdt55FdMtqFyC4x10C9mrlnmGziP7IbWv
+        DjxAu2ptaa4GgmS4GvrjrQbIJBeo7IXrLXQdfTZvwQt0VtYOjcURJIMlB8oMBsg01vH5BjZ7Xe3fdOYC
+        al+1PhrbCkEysv83v6EWb/hEBFE5iuwRZAxZI0gE8aCWCOJC9gjiQS0RxIXsEcSDWiKIC9kjiAe1RBAX
+        skcQD2qJIC5kjyAe1BJBXMgeQTyoJYK4kD2CeFBLBHEh++YGgX+6JsBSriHcW93GPvwMrvNWN2EHT5qv
+        icmLG66GFkOurW5ygsoOXJVb3ae1B1cDpVtQ2cLR0Bxbpbm3uskBKls46tvq2oruqCzJ5F2CJlRa7VqK
+        GtSurW66AZVWV7e6snThcjBQqhrcAUq4H9zqpqphdKs7Cubaq5Lpe4VG/1ksgr+21c2MbnXd0Dz0x7tW
+        gBL6197qrgzDcqA36LW+TwpQwry81X2L7BmjW91gM5nN/gCGqJ5MnDw2PwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnMissions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 177</value>
+  </data>
+  <data name="btnMissions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnMissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 80</value>
+  </data>
+  <data name="btnMissions.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnMissions.Text" xml:space="preserve">
+    <value>HARİTA</value>
+  </data>
+  <data name="&gt;&gt;btnMissions.Name" xml:space="preserve">
+    <value>btnMissions</value>
+  </data>
+  <data name="&gt;&gt;btnMissions.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMissions.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnMissions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHome.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnHome.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAqBJREFUaEPt
+        mT9rFFEUxZNoIRYJBIs0GkUb7RLwC0hEROsUFhIL8wkES9HKxi8g2FlqoaCNaEg0QUVbEURBrPwvKCqi
+        Pn/nzZll1zjOruZlZ+H94JC979x3371kd3aGHcp0QQhhJ1pGd/Tay4MFjR9G71HJO3TIdvOh2RF0Bv1E
+        4gq6WryMa6fRiNObCQ1OoEUkvqF5W/LmvSaUM2GrWdDYNHqmLuE12m+rBWsH0BslgHKnbUWIl6LTyaLt
+        9HDYHPoSjw3hPtpmaxV429EDJYL2HLMlr6zRge10cMZmdDGeVnAWbbRdiXKcW6IaqvUCvXSa8iIO00D9
+        rehePCmEz2jOVtew5zj6qgKgWhrkie30g1B7H3oVTyne61O2eoa9e9FzFTIPbaUbhJrD6CT6rgPgGhq3
+        /c9QYwu6oYKw4OU0g1BvFF2OlUP4gU6hNfs+oNYGdAK1f/gjDv8fau1Bj2PVEN6ig7aSUhy3RoNQZxZ9
+        jBV5/6IdtpLDWfrPi1kv9Q6bdYk8F8sUXECbbK8LnHc+nlygXmov7R2wYRKVX1qf0BFb6w5nH0W6vAv1
+        NGnr75A4g3SLIR6h3bb6Bj1MoadqCNTbjK3VYJaX1vKu9RIatd136GUcXVdjoB7V67DtAhbGkG632+lM
+        agDqqWithXoesx0TVuJy24OQrcbh9sQH/122Fc0FdBfp0TRiq3G4PbEL6f7slq1OYgo4bBxur74/5+VB
+        UuP28iCNwe2lG8Tbesbbu8bb8iC1eFvX+5yeB3FYjfPyIA5rcXoexGE1zsuDOKzF6YM3CJYeFW46HOhB
+        bqPWTwQxGRx2jbf1b5DfcXoexGE1zsuDOKzF6XkQh9U4Lw/isBan50EcVuO8xuN2qyHnTz/aN40lt5vJ
+        pGVo6Bf1uXNsadg9ZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 73</value>
+  </data>
+  <data name="btnHome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 80</value>
+  </data>
+  <data name="btnHome.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnHome.Text" xml:space="preserve">
+    <value>UÇUŞ BİLGİLERİ</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Name" xml:space="preserve">
+    <value>btnHome</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnHome.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnHome.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bunifuFlatButton1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuFlatButton1.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAIlJREFUaEPt
+        1TEKwDAMQ9Hc/1bNxVKHCDx0aada+D/I4izyIDwAAL9aa814bi7FT/qwo/hJ8+dHUYrbYBE3ip9i5lj2
+        qfgA3trFOf2xwmUvQ3EbLOJG8VPMuOxAB7s4pz9WuOxlKG6DRdwofooZlx3oYBfn9McKl70MxW2wiBvF
+        TzHjsgMAvhnjBjIH8NJZtxg7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="bunifuFlatButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="bunifuFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 61</value>
+  </data>
+  <data name="bunifuFlatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Name" xml:space="preserve">
+    <value>bunifuFlatButton1</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuFlatButton, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuFlatButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bunifuGradientPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="bunifuGradientPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 134</value>
+  </data>
+  <data name="bunifuGradientPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 554</value>
+  </data>
+  <data name="bunifuGradientPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel2.Name" xml:space="preserve">
+    <value>bunifuGradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel2.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuGradientPanel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bunifuGradientPanel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bunifuGradientPanel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAXSURBVChTYzBQDflPDB5ViBdTW2HIfwAn/qWhimf17QAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuGradientPanel3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="bunifuGradientPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="bunifuGradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 180</value>
+  </data>
+  <data name="bunifuGradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1115, 508</value>
+  </data>
+  <data name="bunifuGradientPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel3.Name" xml:space="preserve">
+    <value>bunifuGradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel3.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuGradientPanel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuGradientPanel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAXSURBVChTYzBQDflPDB5ViBdTW2HIfwAn/qWhimf17QAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuGradientPanel4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="lblStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 10</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Bağlantı Bekleniyor...</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCustomLabel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Parent" xml:space="preserve">
+    <value>bunifuGradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bunifuGradientPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="bunifuGradientPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 134</value>
+  </data>
+  <data name="bunifuGradientPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1115, 46</value>
+  </data>
+  <data name="bunifuGradientPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.Name" xml:space="preserve">
+    <value>bunifuGradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuGradientPanel, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuGradientPanel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1415, 688</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Yıldız UAV Yer İstasyonu</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

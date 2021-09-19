@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{259F5CDA-E057-4932-8A51-32BD5A56B868}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI_Prototype_1</RootNamespace>
+    <AssemblyName>UI_Prototype_1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Esri.ArcGISRuntime, Version=100.11.2.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <HintPath>..\packages\Esri.ArcGISRuntime.100.11.2\lib\net461\Esri.ArcGISRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.Core.2.0.2\lib\net46\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WinForms.2.0.2\lib\net46\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WinPresentation.2.0.2\lib\net46\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unnoficial.Microsoft.Expression.Drawing.1.0.0\lib\Microsoft.Expression.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.2\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Device" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.5.0.2\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvionicsInstrumentsControls\AttitudeIndicatorInstrumentControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AvionicsInstrumentsControls\HeadingIndicatorInstrumentControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AvionicsInstrumentsControls\InstrumentControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ayarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayarlar.Designer.cs">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryStatus.xaml.cs">
+      <DependentUpon>BatteryStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gostergeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gostergeler.Designer.cs">
+      <DependentUpon>Gostergeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Harita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Harita.Designer.cs">
+      <DependentUpon>Harita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menuitems\aboutUs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menuitems\aboutUs.Designer.cs">
+      <DependentUpon>aboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menuitems\homePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menuitems\homePage.Designer.cs">
+      <DependentUpon>homePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menuitems\missions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menuitems\missions.Designer.cs">
+      <DependentUpon>missions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menuitems\settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menuitems\settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserControlResources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ayarlar.resx">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gostergeler.resx">
+      <DependentUpon>Gostergeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Harita.resx">
+      <DependentUpon>Harita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuitems\aboutUs.resx">
+      <DependentUpon>aboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuitems\homePage.resx">
+      <DependentUpon>homePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuitems\missions.resx">
+      <DependentUpon>missions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menuitems\settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControlResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserControlResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Indicators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\close_52px.png" />
+    <Content Include="icons\connected_52px.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\disconnected_52px.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\drone_10px_Red.png" />
+    <Content Include="icons\drone_25px.png" />
+    <Content Include="icons\drone_40px_beyaz.png" />
+    <Content Include="icons\drone_40px_son.png" />
+    <Content Include="icons\drone_50px.png" />
+    <Content Include="Resources\AirSpeedIndicator_Background.bmp" />
+    <Content Include="Resources\AirSpeedNeedle.bmp" />
+    <Content Include="Resources\Altimeter_Background.bmp" />
+    <Content Include="Resources\Bandeau_Dérouleur.bmp" />
+    <Content Include="Resources\HeadingIndicator_Aircraft.bmp" />
+    <Content Include="Resources\HeadingIndicator_Background.bmp" />
+    <Content Include="Resources\HeadingWeel.bmp" />
+    <Content Include="Resources\Horizon_Background.bmp" />
+    <Content Include="Resources\Horizon_GroundSky.bmp" />
+    <Content Include="Resources\Indicator_Background.bmp" />
+    <Content Include="Resources\LongNeedleAltimeter.bmp" />
+    <Content Include="Resources\Maquette_Avion.bmp" />
+    <Content Include="Resources\SmallNeedleAltimeter.bmp" />
+    <Content Include="Resources\TurnCoordinatorAircraft.bmp" />
+    <Content Include="Resources\TurnCoordinatorBall.bmp" />
+    <Content Include="Resources\TurnCoordinatorMarks.bmp" />
+    <Content Include="Resources\TurnCoordinator_Background.bmp" />
+    <Content Include="Resources\VerticalSpeedIndicator_Background.bmp" />
+    <Content Include="Resources\VerticalSpeedNeedle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="BatteryStatus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Esri.ArcGISRuntime.runtimes.win.100.11.2\build\net461\Esri.ArcGISRuntime.runtimes.win.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Esri.ArcGISRuntime.runtimes.win.100.11.2\build\net461\Esri.ArcGISRuntime.runtimes.win.targets'))" />
+    <Error Condition="!Exists('..\packages\Esri.ArcGISRuntime.100.11.2\build\net461\Esri.ArcGISRuntime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Esri.ArcGISRuntime.100.11.2\build\net461\Esri.ArcGISRuntime.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Import Project="..\packages\Esri.ArcGISRuntime.runtimes.win.100.11.2\build\net461\Esri.ArcGISRuntime.runtimes.win.targets" Condition="Exists('..\packages\Esri.ArcGISRuntime.runtimes.win.100.11.2\build\net461\Esri.ArcGISRuntime.runtimes.win.targets')" />
+  <Import Project="..\packages\Esri.ArcGISRuntime.100.11.2\build\net461\Esri.ArcGISRuntime.targets" Condition="Exists('..\packages\Esri.ArcGISRuntime.100.11.2\build\net461\Esri.ArcGISRuntime.targets')" />
+</Project>
